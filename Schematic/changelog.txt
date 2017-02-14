@@ -1,2 +1,6 @@
 v0.1: Initial board layout - basic
 v0.2: Added a few sensorts
+v0.3: ESP8285 with flash + boot button, BME280 sensor, LIS331, TLS251T
+v0.4: Fjern: FTDI og BME280, 
+	tilføj: FTDI pins, lora module rfm95, bmp280, hdc1010
+	benyt ch_pd for wake up 
