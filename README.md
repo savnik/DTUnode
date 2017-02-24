@@ -2,9 +2,9 @@ DTUnodeMCU
 ==============
 
 A DTU version of NodeMCU using ESP8285 instead of ESP8266. ESP8285 has built-in flash memory which ESP8266 does not. Besides that the ESP8285 is very much the same.
+This will be send to PCB production in March 2017 and tested afterwards.
 
 ## Features
-- - - - - -
 
 - ESP8285, 26 MHz resonator
 - Built-in flash memory
@@ -17,10 +17,14 @@ A DTU version of NodeMCU using ESP8285 instead of ESP8266. ESP8285 has built-in 
 - Built-in battery voltage measurement
 - RGB Led
 - RFM95 LoRaWAN module
-- HDC1010
-- VEML High Accuracy Ambient Light Sensor
-- Three axis digital magnetometer
-- Real time clock
+- HDC1010 High Accuracy humidity sensor
+- VEML6030 High Accuracy Ambient Light Sensor
+- MAG3110 Three axis digital magnetometer
+- DS3231 Real time clock
+- BMP280 Digital pressure sensor
 - Pin headers for FTDI, I2C, Chip enable and 2 GPIO's
 
 
+- - - - - -
+Author Peter Savnik
+Supervisor Ali Ozkil
